@@ -112,13 +112,13 @@ int main(int argc, char*argv[]) {
         system(stringa1);
         gettimeofday(&tv4,NULL);
         total_time = ((double)(tv2.tv_usec -tv1.tv_usec) /1000000 +(double)(tv2.tv_sec - tv1.tv_sec));
-        //fprintf(stdout,"Encryption Speed: %lf\n",total_time);
+        fprintf(stdout,"Encryption Speed: %lf\n",total_time);
         sleep(5);
 	
         total_time1 = ((double)(tv4.tv_usec -tv3.tv_usec) /1000000 +(double)(tv4.tv_sec - tv3.tv_sec));
-        //fprintf(stdout,"Decryption Speed: %lf\n",total_time1);
-	fprintf(stdout,"%lf\t&%lf\t&%lf\t",total_time,total_time1,total_time/total_time1);
-	//fprintf(stdout,"SPEED RATIO: %lf\n",total_time/total_time1);
+        fprintf(stdout,"Decryption Speed: %lf\n",total_time1);
+	//fprintf(stdout,"%lf\t&%lf\t&%lf\t",total_time,total_time1,total_time/total_time1);
+	fprintf(stdout,"SPEED RATIO: %lf\n",total_time/total_time1);
 
         exit(EXIT_SUCCESS);
     }
