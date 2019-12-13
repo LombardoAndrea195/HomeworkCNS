@@ -20,5 +20,5 @@ The main goal is to garantee data integrity developping a new protocol for allow
 
 
 6Homework:(Public key cryptography in OpenSSL)
-
-Goals are: generating keys with certificates, converting certificates and digital signing. In detail we should generating a pair of keys (private and public) then through them we should generating and verifying a self-signed X.509 ceritifcates, then digitally singing a document and verifying a signature on a document. Following  a particular link selected by the teacher we should be able to convert the certificate formats.
+(Inside of that directory there's the 7 homework )
+Goals are: generating keys with certificates, converting certificates and digital signing. In detail we should generating a pair of keys (private and public) then through them we should generating and verifying a self-signed X.509 ceritifcates, then digitally singing a document and verifying a signature on a document. Following  a particular link selected by the teacher we should be able to convert the certificate formats. I decide to unify the two elements due to the fact 7 is the exstention of the 6 homework
